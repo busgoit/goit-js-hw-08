@@ -3,10 +3,9 @@
   "version": "2.0.0",
   "description": "",
   "homepage": "https://busgoit.github.io/goit-js-hw-08/",
-  
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"    
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,8 @@
     "url": "https://github.com/busgoit/goit-js-hw-08/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.10.3"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
@@ -29,4 +29,3 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
-
