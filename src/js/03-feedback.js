@@ -12,7 +12,7 @@ form.addEventListener('input', throttle(onFormInput, 500));
 
 function onFormSubmit(event) {
   event.preventDefault();
-  const isFormData = formData.email;
+  const isFormData = formData.email && formData.message;
 
   if (!isFormData) return alert(WARNING_MESSAGE);
 
